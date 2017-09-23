@@ -7,8 +7,9 @@ driver.get("http://mahsumakbas.net/selenium/dragdrop.html")
 drag_element= driver.find_element_by_id("draggable")
 targ_element= driver.find_element_by_id("droppable")
 print(targ_element.text)
-
+print("dusra version")
 ac=ActionChains(driver)
 ac.drag_and_drop(drag_element,targ_element).perform()
 
 print(targ_element.text)
+print("dusra version")
